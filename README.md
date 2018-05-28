@@ -97,9 +97,16 @@ You can use an explorer to monitor the host wallet, see when the GAS shows up an
 ## Components
 
 ### Host dependencies
+
 Node.js and the following Node packages are required in the host:
+
 - [request-promise](https://www.npmjs.com/package/request-promise)
 - [date-and-time](https://www.npmjs.com/package/date-and-time)
 - [chalk](https://www.npmjs.com/package/chalk)
 - [commander](https://www.npmjs.com/package/commander)
 - [@cityofzion/neon-js](https://github.com/CityOfZion/neon-js)
+
+
+## License
+
+MIT
