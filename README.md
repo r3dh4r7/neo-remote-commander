@@ -58,7 +58,7 @@ Commands are specified in JSON format, and all files with *.json* extension in *
 
 ### Running the host
 
-- Make sure you have [Node.js](https://nodejs.org/en/) installed and can run it on the console.
+- Make sure you have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed and can run them on the console (added to environment variables).
     
 - Enter bin directory:
      
@@ -72,7 +72,7 @@ Commands are specified in JSON format, and all files with *.json* extension in *
 
 - Running on Windows:
      
-     `neo-remote-commander`
+     `node neo-remote-commander`
      
      
     Options:
