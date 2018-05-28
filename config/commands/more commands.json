@@ -1,0 +1,4 @@
+{
+    "0.00000003": "cd ../config/commands/scripts && node example",
+    "0.00000004": "cd ../config/commands/scripts && chmod +x example2.sh && ./example2.sh"
+}

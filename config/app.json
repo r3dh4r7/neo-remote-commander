@@ -1,0 +1,16 @@
+{
+    "network": "MainNet",
+    "host": {
+        "wallet": {
+            "address": "AHXP58*******************nxCnEd",
+            "privatekey": "Ky4ZEu**********************D8BZMX",
+            "passphrase": "nospacephrase!@#$%123"
+        }
+    },
+    "client": {
+        "wallet": {
+            "address": "AZA3BK****************4qYrUv"
+        }
+    }
+    
+}

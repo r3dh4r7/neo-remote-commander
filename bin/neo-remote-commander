@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+module.exports = require('../lib/app');
+const program = require('commander');
+
+program
+.version('1.0.0', '-v, --version')
+.usage('[options]')
+.option('-d, --delay [optional]','manually specify number of seconds between blockchain probes')
+.option('-v --verbosity [optional]', 'one of different verbosity levels: GAS, CMD, OUTPUT, ALL or QUIET | default: ALL')
+.parse(process.argv); 
+
+module.exports.init(program.delay, program.verbosity);
