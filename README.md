@@ -29,7 +29,7 @@ A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is 
 
 ### Configuring the host
 
-- Clone this repository:
+- Get [Git](https://git-scm.com/) (if not installed already), then clone this repository:
     
     `git clone https://github.com/r3dh4r7/neo-remote-commander.git`
     
@@ -58,7 +58,7 @@ Commands are specified in JSON format, and all files with *.json* extension in *
 
 ### Running the host
 
-- Make sure you have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed and can run them on the console (added to environment variables).
+- Make sure you have [Node.js](https://nodejs.org/en/) installed and can run it on the console.
     
 - Enter bin directory:
      
