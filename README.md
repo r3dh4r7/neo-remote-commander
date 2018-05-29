@@ -93,6 +93,16 @@ The amount of GAS you send should correspond to a pre-defined command. Example c
 
 You can use an explorer to monitor the host wallet, see when the GAS shows up and see the relativity between command execution time in the terminal/console, and the blockchain probe delay setting.
 
+### Managing spawned processes
+
+The PID of every command executed by the host is always logged in *CMD* and *ALL* verbosity levels.
+
+Because command execution is asynchronous, spawned process outputs get logged to the console with their respective PIDs for reference.
+
+To stop/control a spawned process, you can track the PID in another console instance.
+
+On Linux, you could use `kill <PID> ` to kill a process. And if your command spawned more processes, you can use `ps --ppid <PID>` to see the sub-processes. And then you can kill each individual sub-process, or track further sub-processes.
+
 
 ## Components
 
