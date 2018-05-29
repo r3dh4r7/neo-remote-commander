@@ -2,14 +2,14 @@
     "network": "MainNet",
     "host": {
         "wallet": {
-            "address": "AHXP58*******************nxCnEd",
-            "privatekey": "Ky4ZEu**********************D8BZMX",
+            "address": "AHXP576S8FSyi6MWkQmv4JcTeArNnxCnEd",
+            "privatekey": "Ky4ZEudW1LP7qRi4Rvx94VfXbPHeGq8vKEHd5wCMKxS1yzD8BZMX",
             "passphrase": "nospacephrase!@#$%123"
         }
     },
     "client": {
         "wallet": {
-            "address": "AZA3BK****************4qYrUv"
+            "address": "AZA3BKNX7wm3T9mTjDEP8s7zHooi4qYrUv"
         }
     }
     
