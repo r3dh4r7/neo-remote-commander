@@ -43,7 +43,7 @@ A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is 
  
   `network` - MainNet/TestNet
   
-  `wallet` - Neo wallet address to be used for sending/receiving commands
+  `client` - Neo wallet address to be used for sending commands to host
   
   `asset` - Asset hash (GAS by default)
   
