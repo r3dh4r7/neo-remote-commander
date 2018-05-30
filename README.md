@@ -18,7 +18,7 @@ A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is 
 ### Host
 * [Node.js](https://nodejs.org/en/)
 * Internet
-* A Neo wallet address with the corresponding private key
+* A Neo wallet address with some GAS
 
 ### Client
 * A cryptocurrency wallet that can send and receive GAS
@@ -29,9 +29,7 @@ A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is 
 
 ### Configuring the host
 
-- Get [Git](https://git-scm.com/) (if not installed already), then clone this repository:
-    
-    `git clone https://github.com/r3dh4r7/neo-remote-commander.git`
+- [Download](https://github.com/r3dh4r7/neo-remote-commander/archive/master.zip) this repository and unzip it.
     
  - Enter the project folder:
     
@@ -45,11 +43,14 @@ A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is 
  
   `network` - MainNet/TestNet
   
-  `host` - Host specific configuration: wallet address, wallet private key and passphrase for encryption
+  `wallet` - Neo wallet address to be used for sending/receiving commands
   
-  `client` - Client specific configuration: wallet address
-
-
+  `asset` - Asset hash (GAS by default)
+  
+  `nodeExpiry` - Fetch a new node after this number of probes with respect to average block time
+  
+  `showAnomalies` - Display errors and warnings or not
+  
 ### Defining commands
 
 A numerical value of GAS is used to identify commands.
@@ -87,7 +88,7 @@ Commands are specified in JSON format, and all files with *.json* extension in *
 
 
 ### Remotely executing commands
-From the client wallet specified in *./config/app.json*, send an amount of GAS to the host's wallet address (also specified in *./config/app.json*).
+From the wallet specified in *./config/app.json*, send an amount of GAS to the same wallet address.
 
 The amount of GAS you send should correspond to a pre-defined command. Example commands can be found in *./config/commands*
 

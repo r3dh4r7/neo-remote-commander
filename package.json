@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/r3dh4r7/neo-remote-commander#readme",
   "dependencies": {
-    "@cityofzion/neon-js": "^3.8.0",
+    "@cityofzion/neon-js": "^3.8.1",
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
     "date-and-time": "^0.6.2",

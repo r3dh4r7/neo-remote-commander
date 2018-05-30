@@ -1,16 +1,7 @@
 {
     "network": "MainNet",
-    "host": {
-        "wallet": {
-            "address": "AHXP576S8FSyi6MWkQmv4JcTeArNnxCnEd",
-            "privatekey": "Ky4ZEudW1LP7qRi4Rvx94VfXbPHeGq8vKEHd5wCMKxS1yzD8BZMX",
-            "passphrase": "nospacephrase!@#$%123"
-        }
-    },
-    "client": {
-        "wallet": {
-            "address": "AZA3BKNX7wm3T9mTjDEP8s7zHooi4qYrUv"
-        }
-    }
-    
+    "wallet": "AZA3BKNX7wm3T9mTjDEP8s7zHooi4qYrUv",
+    "asset": "0x602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7",
+    "nodeExpiry": 3600,
+    "showAnomalies": false
 }
