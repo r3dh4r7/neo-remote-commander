@@ -8,9 +8,9 @@ Neo Remote Commander is a remote command execution tool that is based on pre-con
 
 The flexibility of this project makes it possible to utilise the [Neo Smart Economy Network](http://neo.org) to enable control of [IoT](https://en.wikipedia.org/wiki/Internet_of_things) (Internet of Things) devices without direct connections between client and host or middleware.
 
-Commands are executed by sending GAS from any wallet to the wallet configured on the host machine. Command execution takes approximately average block time on the Neo blockchain, so it becomes faster as Neo scales to higher TPS.
+Commands are executed by sending GAS to self (same wallet). The wallet address must be specified on the host. Command execution takes approximately average block time on the Neo blockchain, so it becomes faster as Neo scales to higher TPS.
 
-A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is never burnt, but rather sent back to the configured client wallet for immediate re-use.
+A total of 100,000,000 unique commands can be invoked with just 1 GAS, which is never burnt, but rather retained for immediate re-use.
 
 
 ## Requirements
